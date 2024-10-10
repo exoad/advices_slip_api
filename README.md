@@ -5,6 +5,7 @@ Advice Slips API Wrapper
 <strong><em>An unofficial wrapper for the <a href="https://api.adviceslip.com"/>Advice Slip JSON API</a> to embed into your Dart/Flutter apps.</em></strong>
 </p>
 
+**Install it [here](https://pub.dev/packages/advices_slip_api)**
 
 ## Installation
 
