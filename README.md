@@ -6,3 +6,52 @@ Advice Slips API Wrapper
 </p>
 
 
+## Installation
+
+**`pubspec.yaml`:**
+
+```yaml
+dependencies:
+    advices_slip_api: x.x.x
+```
+
+**Command Line**
+
+```shell
+[dart/flutter] pub add advices_slip_api
+```
+
+## Usage
+
+```
+import "package:advices_slip_api/advices_slip_api.dart";
+```
+
+#### Available Functions
+
+**`randomAdvice()`** - Get a random advice
+
+
+**`findAdvice(query)`** - Find advices given a keyword to use to find
+
+
+**`getAdviceById(id)`** - Find an advice by its canonical id
+
+
+## Example Usage:
+
+```dart
+import "package:advices_slip_api/advices_slip_api.dart";
+
+void main() async {
+  (await AdviceSlipsApi.randomAdvice())
+      .onSuccess((AdviceSlip advice) => print(advice))
+      .onFailure((Exception e) => print(e));
+  (await AdviceSlipsApi.findAdvice("life"))
+      .onSuccess((List<AdviceSlip> advice) => print(advice))
+      .onFailure((Exception e) => print(e));
+  (await AdviceSlipsApi.findAdvice("life"))
+      .onSuccess((List<AdviceSlip> advice) => print(advice))
+      .onFailure((Exception e) => print(e));
+}
+```
