@@ -1,13 +1,8 @@
 <h1 align="center">
 Advice Slips API Wrapper
 </h1>
-
-<center>
-<p>
-<em>
-
-An unofficial wrapper for the [Advice Slip JSON API](https://api.adviceslip.com)
-
-</em>
+<p align="center">
+<strong><em>An unofficial wrapper for the <a href="https://api.adviceslip.com"/>Advice Slip JSON API</a> to embed into your Dart/Flutter apps.</em></strong>
 </p>
-</center>
+
+
