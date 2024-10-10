@@ -14,3 +14,6 @@ const String _kApiSearchEndpoint =
     "https://api.adviceslip.com/advice/search/";
 const String _kApiSearchIDEndpoint =
     "https://api.adviceslip.com/advice/";
+
+const String kDefaultNothingFoundErrorMessage =
+    "No advice slips found matching that search term.";
