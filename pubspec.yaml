@@ -1,6 +1,6 @@
 name: advices_slip_api
 description: An unofficial wrapper around the AdvicesSlip JSON API for providing random advice slips.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/exoad/advices_slip_api
 
 environment:
